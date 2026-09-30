@@ -1,0 +1,34 @@
+[
+  {
+    "input_text": "respond support: category: Technical Issue | urgency: CRITICAL | policy: Critical production outages are routed to Level-3 engineering on-call. Status updates available at status.saasflow.com. | problem: Production API returning 500 error after deployment | action: Escalate to engineering immediately | details: Account: ACC-94821, Error: ERR_SRV_500_TIMEOUT",
+    "target_text": "Dear Sarah, Thank you for reaching out. We have flagged this incident as CRITICAL PRIORITY and escalated it directly to our on-call Level-3 Engineering team. We are actively investigating the HTTP 500 timeout errors on the /v2/orders endpoint for Account ACC-94821. You can track real-time incident status at status.saasflow.com. Our target resolution SLA for Sev-1 outages is within 1 hour. We will keep you updated on progress."
+  },
+  {
+    "input_text": "respond support: category: Billing | urgency: MEDIUM | policy: Duplicate transactions and billing discrepancies are reconciled immediately. Credit card refunds take 2-3 business days to reflect. | problem: Charged twice on invoice INV-88231 | action: Refund $149.00 duplicate charge | details: Invoice: INV-88231, Amount: $149.00",
+    "target_text": "Dear Marcus, Thank you for contacting SaaSFlow Billing. We have reviewed your account and confirmed the duplicate charge of $149.00 for Invoice #INV-88231. Our finance team has initiated a reversal for the redundant charge. Credit card refunds typically reflect in your account within 2-3 business days. We apologize for the inconvenience and appreciate your patience."
+  },
+  {
+    "input_text": "respond support: category: Refund | urgency: HIGH | policy: All subscriptions and purchases are covered by our 30-day money-back guarantee. Refunds are credited back to the original payment method. | problem: Service does not meet GDPR compliance requirements | action: Process full refund of $1,200.00 | details: Order: ORD-554219, Amount: $1,200.00",
+    "target_text": "Dear Elena, Thank you for getting in touch. In accordance with our 30-day money-back guarantee, we have processed your request for a full refund of $1,200.00 for Order #ORD-554219. The refund has been submitted to your original payment method and will appear within 3 to 5 business days. Your subscription has been scheduled for closure. Please let us know if you require formal confirmation for your compliance records."
+  },
+  {
+    "input_text": "respond support: category: Account | urgency: HIGH | policy: Account security and MFA/2FA resets require verification of identity. Temporary one-time access codes can be provided upon email confirmation. | problem: Locked out because SMS 2FA code is not arriving | action: Reset 2FA or provide backup recovery codes | details: User ID: USR-44102, Phone: +1-555-0129",
+    "target_text": "Dear David, Thank you for contacting security support. We recognize you need immediate access to your dashboard. For your security, we have initiated an identity verification reset for User ID USR-44102. Please check your registered email inbox for a secure one-time verification link to reset your 2-Factor Authentication method. Our support team is standing by if you need additional assistance."
+  },
+  {
+    "input_text": "respond support: category: Order | urgency: LOW | policy: Hardware and bulk orders are fulfilled from our regional fulfillment centers with automated tracking notifications. | problem: No tracking details received for bulk hardware order | action: Provide fulfillment status and tracking numbers | details: Order: ORD-99120, PO: PO-77182",
+    "target_text": "Dear Patricia, Thank you for following up on your bulk order. We checked Order #ORD-99120 (PO-77182) for 25 IoT gateway units. Your shipment is scheduled for dispatch from our central distribution hub tomorrow morning. As soon as the carrier scans the parcel, an automated email with tracking information will be sent directly to your inbox. Thank you for your business."
+  },
+  {
+    "input_text": "respond support: category: Delivery | urgency: HIGH | policy: Damaged or delayed shipments are covered under comprehensive transit insurance with immediate free priority replacement. | problem: Shipment arrived with damaged crate and 3 broken units | action: Arrange immediate replacement dispatch | details: Tracking: TRK-8812903",
+    "target_text": "Dear Carlos, We sincerely apologize for the damaged items received under tracking #TRK-8812903. Under our transit guarantee, we have immediately arranged a priority replacement order for the 3 damaged sensors at no additional charge. Your replacement tracking code will be generated within 24 hours. We appreciate you sending photos and are working to ensure your project timeline stays on schedule."
+  },
+  {
+    "input_text": "respond support: category: Cancellation | urgency: MEDIUM | policy: Subscribers retain full access until the end of their current billing cycle. Auto-renewal is cancelled immediately with no further charges. | problem: Requesting subscription cancellation | action: Turn off auto-renewal and confirm no further charges | details: Account: ACC-33109, Cycle End: October 15, 2026",
+    "target_text": "Dear Rachel, We have successfully processed your cancellation request for account ACC-33109. Automatic renewal has been turned off, and you will not incur any further charges. You will retain complete access to all Team Plan features through the end of your current billing cycle on October 15, 2026. We are sorry to see you go and would welcome the opportunity to work with your team again in the future."
+  },
+  {
+    "input_text": "respond support: category: General Inquiry | urgency: LOW | policy: Comprehensive documentation, API specs, and SDK reference can be found at docs.saasflow.com. | problem: Questions regarding API rate limits and webhook retries | action: Provide technical rate limit info and sandbox keys | details: Rate limits: 120 req/min, Sandbox available",
+    "target_text": "Dear Brian, Thank you for your interest in our platform! On our Developer tier, the REST API rate limit is 120 requests per minute with burst capability up to 200. Webhooks automatically retry up to 5 times with exponential backoff upon receiving any 5xx HTTP response. You can register for a free sandbox environment and generate test API keys directly at docs.saasflow.com/sandbox. Please let us know if you need any additional documentation."
+  }
+]

@@ -1,0 +1,32 @@
+email_id,timestamp,sender,subject,category,category_confidence,urgency_level,urgency_score,sla_target_hours,customer_problem,requested_action,important_details,response_engine,response_preview,processing_time_ms
+EML-2026-001,2026-09-30T08:15:20Z,sarah.jenkins@enterprise.io,CRITICAL: Production API returning 500 errors after upgrade,Technical Issue,0.4409,CRITICAL,1.0,1,Production API returning 500 errors after upgrade (Our production environment is currently failing with HTTP 500 Internal Server Error whenever we query the /v2/orders endpoint.),We need this escalated to your senior on-call engineering team IMMEDIATELY; Please treat this as an emergency ASAP,"account_ids: ACC-94821Error, Account, customer, error_codes: ERR_SRV_500_TIMEOUT, HTTP 500, phone_numbers: +1-555-019-2834",Contextual Policy Engine (T5 Fallback),"Dear Sarah,
+
+Thank you for contacting SaaSFlow Support regarding: 'CRITICAL: Production API returning 500 errors after u...",11.8
+EML-2026-002,2026-09-30T09:02:11Z,marcus.vance@gmail.com,Charged twice on invoice INV-88231,Billing,0.8871,LOW,0.0,48,Charged twice on invoice INV-88231,Could you please check this double billing and process a refund of $149,"invoice_ids: invoice, INV-88231, Invoice, monetary_amounts: $149.00",Contextual Policy Engine (T5 Fallback),"Dear Marcus,
+
+Thank you for contacting SaaSFlow Support regarding: 'Charged twice on invoice INV-88231'.
+
+Our finance te...",6.02
+EML-2026-003,2026-09-30T09:45:00Z,elena.rostova@techcorp.de,Request for full refund - Service does not meet GDPR requirements,Refund,0.5785,MEDIUM,0.4,24,Request for full refund - Service does not meet GDPR requirements,"we are requesting a full refund of $1,200","order_ids: ORD-554219, monetary_amounts: $1,200.00",Contextual Policy Engine (T5 Fallback),"Dear Elena,
+
+Thank you for contacting SaaSFlow Support regarding: 'Request for full refund - Service does not meet GDPR ...",8.37
+EML-2026-004,2026-09-30T10:10:45Z,david.kim@outlook.com,Locked out of my account - 2FA code not arriving,Account,0.7765,MEDIUM,0.25,24,"Locked out of my account - 2FA code not arriving (I am trying to log into my account (david.kim@outlook.com, User ID: USR-44102), but the SMS 2-factor authentication codes are not arriving on my phone (+1-555-0129).)",Can you help me reset my 2FA or provide backup recovery codes,"account_ids: USR-44102, account",Contextual Policy Engine (T5 Fallback),"Dear David,
+
+Thank you for contacting SaaSFlow Support regarding: 'Locked out of my account - 2FA code not arriving'.
+
+W...",5.0
+EML-2026-005,2026-09-30T10:40:12Z,patricia.m@retailworld.com,Status update on bulk hardware order #ORD-99120,Order,0.827,LOW,0.0,48,"Hello,",Could you please let us know the current fulfillment status and when we can expect tracking numbers,"order_ids: PO-77182, ORD-99120",Contextual Policy Engine (T5 Fallback),"Dear Patricia,
+
+Thank you for contacting SaaSFlow Support regarding: 'Status update on bulk hardware order #ORD-99120'.
+...",5.99
+EML-2026-006,2026-09-30T11:05:30Z,carlos.mendez@logistics-fast.mx,Shipment damaged upon delivery - Tracking #TRK-8812903,Delivery,0.5404,HIGH,0.45,4,"Shipment damaged upon delivery - Tracking #TRK-8812903 (Unfortunately, the outer crate was crushed and 3 of the 10 sensors are broken and unusable.)",Please arrange an immediate replacement dispatch for the 3 units so our deployment timeline is not delayed,tracking_numbers: TRK-8812903,Contextual Policy Engine (T5 Fallback),"Dear Carlos,
+
+Thank you for contacting SaaSFlow Support regarding: 'Shipment damaged upon delivery - Tracking #TRK-88129...",7.96
+EML-2026-007,2026-09-30T11:30:00Z,rachel.z@startupseed.co,Cancel subscription effective immediately,Cancellation,0.7801,MEDIUM,0.3,24,Cancel subscription effective immediately,"Please cancel our Team Plan subscription for account ACC-33109 effective at the end of the current billing cycle (October 15, 2026); Please confirm in writing that automatic renewal has been turned off and no further charges will occur","account_ids: account, Customer, ACC-33109",Contextual Policy Engine (T5 Fallback),"Dear Rachel,
+
+Thank you for contacting SaaSFlow Support regarding: 'Cancel subscription effective immediately'.
+
+We have...",6.45
+EML-2026-008,2026-09-30T12:00:15Z,brian.connor@freelance.org,Question regarding API rate limits and webhook retries,General Inquiry,0.6692,LOW,0.0,48,"Hello team,",Review inquiry and provide standard assistance,None specified,Contextual Policy Engine (T5 Fallback),"Dear Brian,
+
+Thank you for contacting SaaSFlow Support regarding: 'Question regarding API rate limits and webhook retrie...",7.6

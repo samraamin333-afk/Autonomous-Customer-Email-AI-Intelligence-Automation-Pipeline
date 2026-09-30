@@ -1,0 +1,29 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Large Model Weights (Keep configurations and code; exclude heavy binary tensors)
+models/*/checkpoint-*
+models/*/*.safetensors
+models/*/*.bin
+models/*/*.pt
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/

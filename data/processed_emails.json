@@ -1,0 +1,330 @@
+[
+  {
+    "id": "EML-2026-001",
+    "sender": "sarah.jenkins@enterprise.io",
+    "recipient": "support@saasflow.com",
+    "subject": "CRITICAL: Production API returning 500 errors after upgrade",
+    "timestamp": "2026-09-30T08:15:20Z",
+    "preprocessing": {
+      "cleaned_body": "Hello Support Team,\n\nOur production environment is currently failing with HTTP 500 Internal Server Error whenever we query the /v2/orders endpoint. This started immediately following your 03:00 UTC maintenance window.\n\nThis is blocking all of our customer checkouts! We are losing thousands of dollars every hour. We need this escalated to your senior on-call engineering team IMMEDIATELY.\n\nAccount ID: ACC-94821Error Code: ERR_SRV_500_TIMEOUT\n\nPlease treat this as an emergency ASAP!\n\n-- Sarah JenkinsVP of Infrastructure, Enterprise IOMobile: +1-555-019-2834",
+      "character_reduction_pct": 30.0,
+      "extracted_signature": "CONFIDENTIALITY NOTICE: This transmission may contain privileged and confidential information."
+    },
+    "category": "Technical Issue",
+    "category_confidence": 0.4409,
+    "classification_method": "hybrid_ml_rules",
+    "urgency_level": "CRITICAL",
+    "urgency_score": 1.0,
+    "sla_target_hours": 1,
+    "urgency_signals": [
+      "Production Outage: 'blocking all'",
+      "Direct Revenue Impact: 'losing thousands'",
+      "Explicit Urgency Keyword: 'CRITICAL'"
+    ],
+    "summary": {
+      "customer_problem": "Production API returning 500 errors after upgrade (Our production environment is currently failing with HTTP 500 Internal Server Error whenever we query the /v2/orders endpoint.)",
+      "requested_action": "We need this escalated to your senior on-call engineering team IMMEDIATELY; Please treat this as an emergency ASAP",
+      "important_details": {
+        "account_ids": [
+          "ACC-94821Error",
+          "Account",
+          "customer"
+        ],
+        "error_codes": [
+          "ERR_SRV_500_TIMEOUT",
+          "HTTP 500"
+        ],
+        "phone_numbers": [
+          "+1-555-019-2834"
+        ]
+      },
+      "important_details_summary": "account_ids: ACC-94821Error, Account, customer, error_codes: ERR_SRV_500_TIMEOUT, HTTP 500, phone_numbers: +1-555-019-2834",
+      "executive_one_liner": "[Production API returning 500 errors after upgrade (Our production environment is currently failing with HTTP 500 Internal Server Error whenever we query the /v2/orders endpoint.)] -> Requested: [We need this escalated to your senior on-call engineering team IMMEDIATELY; Please treat this as an emergency ASAP]"
+    },
+    "response": {
+      "response_text": "Dear Sarah,\n\nThank you for contacting SaaSFlow Support regarding: 'CRITICAL: Production API returning 500 errors after upgrade'.\n\nWe understand this is an emergency impacting your operations and have marked this ticket as CRITICAL PRIORITY. Our engineering operations team has been dispatched to investigate this incident.\n\nRegarding your concern: \"Production API returning 500 errors after upgrade (Our production environment is currently failing with HTTP 500 Internal Server Error whenever we query the /v2/orders endpoint.)\", we are addressing your requested action (\"We need this escalated to your senior on-call engineering team IMMEDIATELY; Please treat this as an emergency ASAP\") immediately. Critical production outages are routed to Level-3 engineering on-call. Status updates available at status.saasflow.com.\n\nExpected Resolution Timeline: 1 hour for Sev-1 outages; 4 hours for standard technical defects..\n\nAssociated References: Account Ids: ACC-94821Error, Account, customer; Error Codes: ERR_SRV_500_TIMEOUT, HTTP 500; Phone Numbers: +1-555-019-2834\n\nIf you have additional logs, receipts, or questions in the meantime, please reply directly to this email.\n\nBest regards,\nSaaSFlow Customer Care Team\nsupport@saasflow.com | status.saasflow.com",
+      "engine": "Contextual Policy Engine (T5 Fallback)",
+      "business_context_applied": "Critical production outages are routed to Level-3 engineering on-call. Status updates available at status.saasflow.com.",
+      "sla_commitment": "1 hour for Sev-1 outages; 4 hours for standard technical defects."
+    },
+    "processing_time_ms": 11.8
+  },
+  {
+    "id": "EML-2026-002",
+    "sender": "marcus.vance@gmail.com",
+    "recipient": "billing@saasflow.com",
+    "subject": "Charged twice on invoice INV-88231",
+    "timestamp": "2026-09-30T09:02:11Z",
+    "preprocessing": {
+      "cleaned_body": "Hi there,\n\nI was reviewing my credit card statement this morning and noticed two separate charges of $149.00 on September 28th for Invoice #INV-88231.\n\nCould you please check this double billing and process a refund of $149.00 back to my card? I only subscribed to one monthly seat.",
+      "character_reduction_pct": 34.11,
+      "extracted_signature": "Thanks,\nMarcus Vance"
+    },
+    "category": "Billing",
+    "category_confidence": 0.8871,
+    "classification_method": "hybrid_ml_rules",
+    "urgency_level": "LOW",
+    "urgency_score": 0.0,
+    "sla_target_hours": 48,
+    "urgency_signals": [],
+    "summary": {
+      "customer_problem": "Charged twice on invoice INV-88231",
+      "requested_action": "Could you please check this double billing and process a refund of $149",
+      "important_details": {
+        "invoice_ids": [
+          "invoice",
+          "INV-88231",
+          "Invoice"
+        ],
+        "monetary_amounts": [
+          "$149.00"
+        ]
+      },
+      "important_details_summary": "invoice_ids: invoice, INV-88231, Invoice, monetary_amounts: $149.00",
+      "executive_one_liner": "[Charged twice on invoice INV-88231] -> Requested: [Could you please check this double billing and process a refund of $149]"
+    },
+    "response": {
+      "response_text": "Dear Marcus,\n\nThank you for contacting SaaSFlow Support regarding: 'Charged twice on invoice INV-88231'.\n\nOur finance team has been notified to audit the invoice and reverse any erroneous transaction.\n\nRegarding your concern: \"Charged twice on invoice INV-88231\", we are addressing your requested action (\"Could you please check this double billing and process a refund of $149\") immediately. Duplicate transactions and billing discrepancies are reconciled immediately. Credit card refunds take 2-3 business days to reflect.\n\nExpected Resolution Timeline: Within 24 business hours..\n\nAssociated References: Invoice Ids: invoice, INV-88231, Invoice; Monetary Amounts: $149.00\n\nIf you have additional logs, receipts, or questions in the meantime, please reply directly to this email.\n\nBest regards,\nSaaSFlow Customer Care Team\nsupport@saasflow.com | status.saasflow.com",
+      "engine": "Contextual Policy Engine (T5 Fallback)",
+      "business_context_applied": "Duplicate transactions and billing discrepancies are reconciled immediately. Credit card refunds take 2-3 business days to reflect.",
+      "sla_commitment": "Within 24 business hours."
+    },
+    "processing_time_ms": 6.02
+  },
+  {
+    "id": "EML-2026-003",
+    "sender": "elena.rostova@techcorp.de",
+    "recipient": "support@saasflow.com",
+    "subject": "Request for full refund - Service does not meet GDPR requirements",
+    "timestamp": "2026-09-30T09:45:00Z",
+    "preprocessing": {
+      "cleaned_body": "Dear Support,We recently purchased the Annual Business Plan on order ORD-554219 ($1,200.00). However, during our compliance audit, we found that data residency controls do not comply with our internal GDPR standards.Per your 30-day money-back guarantee, we are requesting a full refund of $1,200.00 to our original payment method and closure of the subscription.Thank you for your prompt handling.Kind regards,Elena RostovaData Protection Officer",
+      "character_reduction_pct": 10.26,
+      "extracted_signature": ""
+    },
+    "category": "Refund",
+    "category_confidence": 0.5785,
+    "classification_method": "hybrid_ml_rules",
+    "urgency_level": "MEDIUM",
+    "urgency_score": 0.4,
+    "sla_target_hours": 24,
+    "urgency_signals": [
+      "High Financial Exposure: $1,200.00",
+      "High Financial Exposure: $1,200.00",
+      "Capitalized Emphasis Words: GDPR, GDPR"
+    ],
+    "summary": {
+      "customer_problem": "Request for full refund - Service does not meet GDPR requirements",
+      "requested_action": "we are requesting a full refund of $1,200",
+      "important_details": {
+        "order_ids": [
+          "ORD-554219"
+        ],
+        "monetary_amounts": [
+          "$1,200.00"
+        ]
+      },
+      "important_details_summary": "order_ids: ORD-554219, monetary_amounts: $1,200.00",
+      "executive_one_liner": "[Request for full refund - Service does not meet GDPR requirements] -> Requested: [we are requesting a full refund of $1,200]"
+    },
+    "response": {
+      "response_text": "Dear Elena,\n\nThank you for contacting SaaSFlow Support regarding: 'Request for full refund - Service does not meet GDPR requirements'.\n\nWe have initiated your refund request in accordance with our 30-day money-back guarantee.\n\nRegarding your concern: \"Request for full refund - Service does not meet GDPR requirements\", we are addressing your requested action (\"we are requesting a full refund of $1,200\") immediately. All subscriptions and purchases are covered by our 30-day money-back guarantee. Refunds are credited back to the original payment method.\n\nExpected Resolution Timeline: Processed within 3 to 5 business days..\n\nAssociated References: Order Ids: ORD-554219; Monetary Amounts: $1,200.00\n\nIf you have additional logs, receipts, or questions in the meantime, please reply directly to this email.\n\nBest regards,\nSaaSFlow Customer Care Team\nsupport@saasflow.com | status.saasflow.com",
+      "engine": "Contextual Policy Engine (T5 Fallback)",
+      "business_context_applied": "All subscriptions and purchases are covered by our 30-day money-back guarantee. Refunds are credited back to the original payment method.",
+      "sla_commitment": "Processed within 3 to 5 business days."
+    },
+    "processing_time_ms": 8.37
+  },
+  {
+    "id": "EML-2026-004",
+    "sender": "david.kim@outlook.com",
+    "recipient": "security@saasflow.com",
+    "subject": "Locked out of my account - 2FA code not arriving",
+    "timestamp": "2026-09-30T10:10:45Z",
+    "preprocessing": {
+      "cleaned_body": "Hi Support,\n\nI am trying to log into my account (david.kim@outlook.com, User ID: USR-44102), but the SMS 2-factor authentication codes are not arriving on my phone (+1-555-0129). I have tried resending 4 times already.\n\nI need to access my dashboard today to download our quarterly tax reports. Can you help me reset my 2FA or provide backup recovery codes?\n\nBest,\nDavid Kim",
+      "character_reduction_pct": 5.32,
+      "extracted_signature": "Sent from my iPhone"
+    },
+    "category": "Account",
+    "category_confidence": 0.7765,
+    "classification_method": "hybrid_ml_rules",
+    "urgency_level": "MEDIUM",
+    "urgency_score": 0.25,
+    "sla_target_hours": 24,
+    "urgency_signals": [
+      "Tight Deadline / SLA: 'today'"
+    ],
+    "summary": {
+      "customer_problem": "Locked out of my account - 2FA code not arriving (I am trying to log into my account (david.kim@outlook.com, User ID: USR-44102), but the SMS 2-factor authentication codes are not arriving on my phone (+1-555-0129).)",
+      "requested_action": "Can you help me reset my 2FA or provide backup recovery codes",
+      "important_details": {
+        "account_ids": [
+          "USR-44102",
+          "account"
+        ]
+      },
+      "important_details_summary": "account_ids: USR-44102, account",
+      "executive_one_liner": "[Locked out of my account - 2FA code not arriving (I am trying to log into my account (david.kim@outlook.com, User ID: USR-44102), but the SMS 2-factor authentication codes are not arriving on my phone (+1-555-0129).)] -> Requested: [Can you help me reset my 2FA or provide backup recovery codes]"
+    },
+    "response": {
+      "response_text": "Dear David,\n\nThank you for contacting SaaSFlow Support regarding: 'Locked out of my account - 2FA code not arriving'.\n\nWe have triggered a secure authentication reset procedure for your registered user ID.\n\nRegarding your concern: \"Locked out of my account - 2FA code not arriving (I am trying to log into my account (david.kim@outlook.com, User ID: USR-44102), but the SMS 2-factor authentication codes are not arriving on my phone (+1-555-0129).)\", we are addressing your requested action (\"Can you help me reset my 2FA or provide backup recovery codes\") immediately. Account security and MFA/2FA resets require verification of identity. Temporary one-time access codes can be provided upon email confirmation.\n\nExpected Resolution Timeline: Immediate to 2 hours..\n\nAssociated References: Account Ids: USR-44102, account\n\nIf you have additional logs, receipts, or questions in the meantime, please reply directly to this email.\n\nBest regards,\nSaaSFlow Customer Care Team\nsupport@saasflow.com | status.saasflow.com",
+      "engine": "Contextual Policy Engine (T5 Fallback)",
+      "business_context_applied": "Account security and MFA/2FA resets require verification of identity. Temporary one-time access codes can be provided upon email confirmation.",
+      "sla_commitment": "Immediate to 2 hours."
+    },
+    "processing_time_ms": 5.0
+  },
+  {
+    "id": "EML-2026-005",
+    "sender": "patricia.m@retailworld.com",
+    "recipient": "orders@saasflow.com",
+    "subject": "Status update on bulk hardware order #ORD-99120",
+    "timestamp": "2026-09-30T10:40:12Z",
+    "preprocessing": {
+      "cleaned_body": "Hello,\n\nWe placed an order for 25 IoT gateway units under PO-77182 (Order #ORD-99120) three weeks ago. We received the initial order confirmation but no tracking details yet.\n\nCould you please let us know the current fulfillment status and when we can expect tracking numbers?",
+      "character_reduction_pct": 15.08,
+      "extracted_signature": "Regards,\nPatricia Miller\nProcurement Specialist"
+    },
+    "category": "Order",
+    "category_confidence": 0.827,
+    "classification_method": "hybrid_ml_rules",
+    "urgency_level": "LOW",
+    "urgency_score": 0.0,
+    "sla_target_hours": 48,
+    "urgency_signals": [],
+    "summary": {
+      "customer_problem": "Hello,",
+      "requested_action": "Could you please let us know the current fulfillment status and when we can expect tracking numbers",
+      "important_details": {
+        "order_ids": [
+          "PO-77182",
+          "ORD-99120"
+        ]
+      },
+      "important_details_summary": "order_ids: PO-77182, ORD-99120",
+      "executive_one_liner": "[Hello,] -> Requested: [Could you please let us know the current fulfillment status and when we can expect tracking numbers]"
+    },
+    "response": {
+      "response_text": "Dear Patricia,\n\nThank you for contacting SaaSFlow Support regarding: 'Status update on bulk hardware order #ORD-99120'.\n\nOur logistics team is pulling your order details to provide exact tracking and dispatch timing.\n\nRegarding your concern: \"Hello,\", we are addressing your requested action (\"Could you please let us know the current fulfillment status and when we can expect tracking numbers\") immediately. Hardware and bulk orders are fulfilled from our regional fulfillment centers with automated tracking notifications.\n\nExpected Resolution Timeline: Fulfillment update within 12 business hours..\n\nAssociated References: Order Ids: PO-77182, ORD-99120\n\nIf you have additional logs, receipts, or questions in the meantime, please reply directly to this email.\n\nBest regards,\nSaaSFlow Customer Care Team\nsupport@saasflow.com | status.saasflow.com",
+      "engine": "Contextual Policy Engine (T5 Fallback)",
+      "business_context_applied": "Hardware and bulk orders are fulfilled from our regional fulfillment centers with automated tracking notifications.",
+      "sla_commitment": "Fulfillment update within 12 business hours."
+    },
+    "processing_time_ms": 5.99
+  },
+  {
+    "id": "EML-2026-006",
+    "sender": "carlos.mendez@logistics-fast.mx",
+    "recipient": "support@saasflow.com",
+    "subject": "Shipment damaged upon delivery - Tracking #TRK-8812903",
+    "timestamp": "2026-09-30T11:05:30Z",
+    "preprocessing": {
+      "cleaned_body": "Hello,\n\nWe received shipment #TRK-8812903 today via DHL. Unfortunately, the outer crate was crushed and 3 of the 10 sensors are broken and unusable.\n\nWe have photos of the damage. Please arrange an immediate replacement dispatch for the 3 units so our deployment timeline is not delayed.",
+      "character_reduction_pct": 24.67,
+      "extracted_signature": "Thank you,Carlos Mendez"
+    },
+    "category": "Delivery",
+    "category_confidence": 0.5404,
+    "classification_method": "hybrid_ml_rules",
+    "urgency_level": "HIGH",
+    "urgency_score": 0.45,
+    "sla_target_hours": 4,
+    "urgency_signals": [
+      "Tight Deadline / SLA: 'today'",
+      "High Negative Sentiment: 'unusable'"
+    ],
+    "summary": {
+      "customer_problem": "Shipment damaged upon delivery - Tracking #TRK-8812903 (Unfortunately, the outer crate was crushed and 3 of the 10 sensors are broken and unusable.)",
+      "requested_action": "Please arrange an immediate replacement dispatch for the 3 units so our deployment timeline is not delayed",
+      "important_details": {
+        "tracking_numbers": [
+          "TRK-8812903"
+        ]
+      },
+      "important_details_summary": "tracking_numbers: TRK-8812903",
+      "executive_one_liner": "[Shipment damaged upon delivery - Tracking #TRK-8812903 (Unfortunately, the outer crate was crushed and 3 of the 10 sensors are broken and unusable.)] -> Requested: [Please arrange an immediate replacement dispatch for the 3 units so our deployment timeline is not delayed]"
+    },
+    "response": {
+      "response_text": "Dear Carlos,\n\nThank you for contacting SaaSFlow Support regarding: 'Shipment damaged upon delivery - Tracking #TRK-8812903'.\n\nWe recognize the urgency of this request and have expedited this ticket to our priority queue. We apologize for the damaged items; we are expediting a replacement shipment to your address.\n\nRegarding your concern: \"Shipment damaged upon delivery - Tracking #TRK-8812903 (Unfortunately, the outer crate was crushed and 3 of the 10 sensors are broken and unusable.)\", we are addressing your requested action (\"Please arrange an immediate replacement dispatch for the 3 units so our deployment timeline is not delayed\") immediately. Damaged or delayed shipments are covered under comprehensive transit insurance with immediate free priority replacement.\n\nExpected Resolution Timeline: Expedited dispatch within 24 hours..\n\nAssociated References: Tracking Numbers: TRK-8812903\n\nIf you have additional logs, receipts, or questions in the meantime, please reply directly to this email.\n\nBest regards,\nSaaSFlow Customer Care Team\nsupport@saasflow.com | status.saasflow.com",
+      "engine": "Contextual Policy Engine (T5 Fallback)",
+      "business_context_applied": "Damaged or delayed shipments are covered under comprehensive transit insurance with immediate free priority replacement.",
+      "sla_commitment": "Expedited dispatch within 24 hours."
+    },
+    "processing_time_ms": 7.96
+  },
+  {
+    "id": "EML-2026-007",
+    "sender": "rachel.z@startupseed.co",
+    "recipient": "accounts@saasflow.com",
+    "subject": "Cancel subscription effective immediately",
+    "timestamp": "2026-09-30T11:30:00Z",
+    "preprocessing": {
+      "cleaned_body": "To Customer Service,\n\nPlease cancel our Team Plan subscription for account ACC-33109 effective at the end of the current billing cycle (October 15, 2026).\n\nWe are downsizing our team and will not be renewing. Please confirm in writing that automatic renewal has been turned off and no further charges will occur.",
+      "character_reduction_pct": 6.59,
+      "extracted_signature": "Thanks,\nRachel Zhang"
+    },
+    "category": "Cancellation",
+    "category_confidence": 0.7801,
+    "classification_method": "hybrid_ml_rules",
+    "urgency_level": "MEDIUM",
+    "urgency_score": 0.3,
+    "sla_target_hours": 24,
+    "urgency_signals": [
+      "Explicit Urgency Keyword: 'immediately'"
+    ],
+    "summary": {
+      "customer_problem": "Cancel subscription effective immediately",
+      "requested_action": "Please cancel our Team Plan subscription for account ACC-33109 effective at the end of the current billing cycle (October 15, 2026); Please confirm in writing that automatic renewal has been turned off and no further charges will occur",
+      "important_details": {
+        "account_ids": [
+          "account",
+          "Customer",
+          "ACC-33109"
+        ]
+      },
+      "important_details_summary": "account_ids: account, Customer, ACC-33109",
+      "executive_one_liner": "[Cancel subscription effective immediately] -> Requested: [Please cancel our Team Plan subscription for account ACC-33109 effective at the end of the current billing cycle (October 15, 2026); Please confirm in writing that automatic renewal has been turned off and no further charges will occur]"
+    },
+    "response": {
+      "response_text": "Dear Rachel,\n\nThank you for contacting SaaSFlow Support regarding: 'Cancel subscription effective immediately'.\n\nWe have turned off automatic renewal for your account; no further charges will occur.\n\nRegarding your concern: \"Cancel subscription effective immediately\", we are addressing your requested action (\"Please cancel our Team Plan subscription for account ACC-33109 effective at the end of the current billing cycle (October 15, 2026); Please confirm in writing that automatic renewal has been turned off and no further charges will occur\") immediately. Subscribers retain full access until the end of their current billing cycle. Auto-renewal is cancelled immediately with no further charges.\n\nExpected Resolution Timeline: Instant confirmation..\n\nAssociated References: Account Ids: account, Customer, ACC-33109\n\nIf you have additional logs, receipts, or questions in the meantime, please reply directly to this email.\n\nBest regards,\nSaaSFlow Customer Care Team\nsupport@saasflow.com | status.saasflow.com",
+      "engine": "Contextual Policy Engine (T5 Fallback)",
+      "business_context_applied": "Subscribers retain full access until the end of their current billing cycle. Auto-renewal is cancelled immediately with no further charges.",
+      "sla_commitment": "Instant confirmation."
+    },
+    "processing_time_ms": 6.45
+  },
+  {
+    "id": "EML-2026-008",
+    "sender": "brian.connor@freelance.org",
+    "recipient": "info@saasflow.com",
+    "subject": "Question regarding API rate limits and webhook retries",
+    "timestamp": "2026-09-30T12:00:15Z",
+    "preprocessing": {
+      "cleaned_body": "Hello team,\n\nI am evaluating your developer tier for an upcoming client project. I was wondering what the default rate limits are for the REST API (requests per minute), and if webhooks automatically retry upon receiving 5xx responses.\n\nAlso, do you offer sandbox test keys before subscribing?",
+      "character_reduction_pct": 6.98,
+      "extracted_signature": "Cheers,\nBrian Connor"
+    },
+    "category": "General Inquiry",
+    "category_confidence": 0.6692,
+    "classification_method": "hybrid_ml_rules",
+    "urgency_level": "LOW",
+    "urgency_score": 0.0,
+    "sla_target_hours": 48,
+    "urgency_signals": [],
+    "summary": {
+      "customer_problem": "Hello team,",
+      "requested_action": "Review inquiry and provide standard assistance",
+      "important_details": {},
+      "important_details_summary": "None specified",
+      "executive_one_liner": "[Hello team,] -> Requested: [Review inquiry and provide standard assistance]"
+    },
+    "response": {
+      "response_text": "Dear Brian,\n\nThank you for contacting SaaSFlow Support regarding: 'Question regarding API rate limits and webhook retries'.\n\nWe are delighted to assist with your inquiry and provide all necessary technical specifications.\n\nRegarding your concern: \"Hello team,\", we are addressing your requested action (\"Review inquiry and provide standard assistance\") immediately. Comprehensive documentation, API specs, and SDK reference can be found at docs.saasflow.com.\n\nExpected Resolution Timeline: Within 1 business day..\n\nIf you have additional logs, receipts, or questions in the meantime, please reply directly to this email.\n\nBest regards,\nSaaSFlow Customer Care Team\nsupport@saasflow.com | status.saasflow.com",
+      "engine": "Contextual Policy Engine (T5 Fallback)",
+      "business_context_applied": "Comprehensive documentation, API specs, and SDK reference can be found at docs.saasflow.com.",
+      "sla_commitment": "Within 1 business day."
+    },
+    "processing_time_ms": 7.6
+  }
+]

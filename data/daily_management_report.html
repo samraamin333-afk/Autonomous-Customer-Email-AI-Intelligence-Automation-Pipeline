@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Management Report - Email Intelligence</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 24px; background: #f8fafc; color: #1e293b; }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 16px; margin-bottom: 24px; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+        .kpi-card { background: #ffffff; border-radius: 8px; padding: 18px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; }
+        .kpi-title { font-size: 13px; color: #64748b; font-weight: 600; text-transform: uppercase; margin-bottom: 6px; }
+        .kpi-value { font-size: 28px; font-weight: 700; color: #0f172a; }
+        .panel { background: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; margin-bottom: 24px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+        th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e2e8f0; font-size: 14px; }
+        th { background: #f1f5f9; font-weight: 600; color: #475569; }
+        code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1 style="margin:0 0 6px 0; font-size:24px;">📧 Customer Email Operations Dashboard</h1>
+            <span style="color:#64748b; font-size:14px;">Report Run: 2026-09-30 09:21 UTC</span>
+        </div>
+        <div>
+            <span style="background:#22c55e; color:#fff; padding:6px 14px; border-radius:16px; font-weight:600; font-size:13px;">Pipeline Active</span>
+        </div>
+    </div>
+
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-title">Total Ingested</div>
+            <div class="kpi-value">8</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Critical / High Urgency</div>
+            <div class="kpi-value" style="color:#dc2626;">2</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Avg Noise Reduction</div>
+            <div class="kpi-value" style="color:#0284c7;">16.6%</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Auto-Drafted Responses</div>
+            <div class="kpi-value" style="color:#16a34a;">8</div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h2 style="margin-top:0; font-size:18px;">🚨 Priority Escalation Queue (SLA &lt; 4 Hours)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Email ID</th>
+                    <th>Urgency</th>
+                    <th>Sender</th>
+                    <th>Category</th>
+                    <th>Problem Summary</th>
+                    <th>Target SLA</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr>
+                <td><code>EML-2026-001</code></td>
+                <td><span style="background:#dc2626; color:#fff; padding:2px 8px; border-radius:12px; font-weight:600; font-size:12px;">CRITICAL</span></td>
+                <td>sarah.jenkins@enterprise.io</td>
+                <td>Technical Issue</td>
+                <td>Production API returning 500 errors after upgrade (Our production environment is currently failing with HTTP 500 Internal Server Error whenever we query the /v2/orders endpoint.)</td>
+                <td><strong>1h</strong></td>
+            </tr>
+            
+            <tr>
+                <td><code>EML-2026-006</code></td>
+                <td><span style="background:#ea580c; color:#fff; padding:2px 8px; border-radius:12px; font-weight:600; font-size:12px;">HIGH</span></td>
+                <td>carlos.mendez@logistics-fast.mx</td>
+                <td>Delivery</td>
+                <td>Shipment damaged upon delivery - Tracking #TRK-8812903 (Unfortunately, the outer crate was crushed and 3 of the 10 sensors are broken and unusable.)</td>
+                <td><strong>4h</strong></td>
+            </tr>
+            
+            </tbody>
+        </table>
+    </div>
+
+    <div class="panel">
+        <h2 style="margin-top:0; font-size:18px;">📊 Volume by Category</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th style="text-align:center;">Volume</th>
+                    <th style="text-align:right;">Proportion</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            <tr>
+                <td>Technical Issue</td>
+                <td style="text-align:center;"><strong>1</strong></td>
+                <td style="text-align:right;">
+                    <div style="background:#e2e8f0; border-radius:4px; height:12px; width:100px; display:inline-block; margin-right:8px;">
+                        <div style="background:#3b82f6; height:12px; border-radius:4px; width:12.5%;"></div>
+                    </div>
+                    12.5%
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Billing</td>
+                <td style="text-align:center;"><strong>1</strong></td>
+                <td style="text-align:right;">
+                    <div style="background:#e2e8f0; border-radius:4px; height:12px; width:100px; display:inline-block; margin-right:8px;">
+                        <div style="background:#3b82f6; height:12px; border-radius:4px; width:12.5%;"></div>
+                    </div>
+                    12.5%
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Refund</td>
+                <td style="text-align:center;"><strong>1</strong></td>
+                <td style="text-align:right;">
+                    <div style="background:#e2e8f0; border-radius:4px; height:12px; width:100px; display:inline-block; margin-right:8px;">
+                        <div style="background:#3b82f6; height:12px; border-radius:4px; width:12.5%;"></div>
+                    </div>
+                    12.5%
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Account</td>
+                <td style="text-align:center;"><strong>1</strong></td>
+                <td style="text-align:right;">
+                    <div style="background:#e2e8f0; border-radius:4px; height:12px; width:100px; display:inline-block; margin-right:8px;">
+                        <div style="background:#3b82f6; height:12px; border-radius:4px; width:12.5%;"></div>
+                    </div>
+                    12.5%
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Order</td>
+                <td style="text-align:center;"><strong>1</strong></td>
+                <td style="text-align:right;">
+                    <div style="background:#e2e8f0; border-radius:4px; height:12px; width:100px; display:inline-block; margin-right:8px;">
+                        <div style="background:#3b82f6; height:12px; border-radius:4px; width:12.5%;"></div>
+                    </div>
+                    12.5%
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Delivery</td>
+                <td style="text-align:center;"><strong>1</strong></td>
+                <td style="text-align:right;">
+                    <div style="background:#e2e8f0; border-radius:4px; height:12px; width:100px; display:inline-block; margin-right:8px;">
+                        <div style="background:#3b82f6; height:12px; border-radius:4px; width:12.5%;"></div>
+                    </div>
+                    12.5%
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Cancellation</td>
+                <td style="text-align:center;"><strong>1</strong></td>
+                <td style="text-align:right;">
+                    <div style="background:#e2e8f0; border-radius:4px; height:12px; width:100px; display:inline-block; margin-right:8px;">
+                        <div style="background:#3b82f6; height:12px; border-radius:4px; width:12.5%;"></div>
+                    </div>
+                    12.5%
+                </td>
+            </tr>
+            
+            <tr>
+                <td>General Inquiry</td>
+                <td style="text-align:center;"><strong>1</strong></td>
+                <td style="text-align:right;">
+                    <div style="background:#e2e8f0; border-radius:4px; height:12px; width:100px; display:inline-block; margin-right:8px;">
+                        <div style="background:#3b82f6; height:12px; border-radius:4px; width:12.5%;"></div>
+                    </div>
+                    12.5%
+                </td>
+            </tr>
+            
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

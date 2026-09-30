@@ -1,0 +1,66 @@
+[
+  {
+    "id": "EML-2026-001",
+    "sender": "sarah.jenkins@enterprise.io",
+    "recipient": "support@saasflow.com",
+    "subject": "CRITICAL: Production API returning 500 errors after upgrade",
+    "timestamp": "2026-09-30T08:15:20Z",
+    "body": "<html><body><p>Hello Support Team,</p><p>Our production environment is currently failing with <strong>HTTP 500 Internal Server Error</strong> whenever we query the <code>/v2/orders</code> endpoint. This started immediately following your 03:00 UTC maintenance window.</p><p>This is blocking all of our customer checkouts! We are losing thousands of dollars every hour. We need this escalated to your senior on-call engineering team <em>IMMEDIATELY</em>.</p><p>Account ID: <strong>ACC-94821</strong><br>Error Code: ERR_SRV_500_TIMEOUT</p><p>Please treat this as an emergency ASAP!</p><br><br><div>-- <br>Sarah Jenkins<br>VP of Infrastructure, Enterprise IO<br>Mobile: +1-555-019-2834<br>CONFIDENTIALITY NOTICE: This transmission may contain privileged and confidential information.</div></body></html>"
+  },
+  {
+    "id": "EML-2026-002",
+    "sender": "marcus.vance@gmail.com",
+    "recipient": "billing@saasflow.com",
+    "subject": "Charged twice on invoice INV-88231",
+    "timestamp": "2026-09-30T09:02:11Z",
+    "body": "Hi there,\n\nI was reviewing my credit card statement this morning and noticed two separate charges of $149.00 on September 28th for Invoice #INV-88231.\n\nCould you please check this double billing and process a refund of $149.00 back to my card? I only subscribed to one monthly seat.\n\nThanks,\nMarcus Vance\n\n> On Sep 28, 2026, at 10:00 AM, billing@saasflow.com wrote:\n> Your monthly renewal for Pro Tier has been charged: $149.00."
+  },
+  {
+    "id": "EML-2026-003",
+    "sender": "elena.rostova@techcorp.de",
+    "recipient": "support@saasflow.com",
+    "subject": "Request for full refund - Service does not meet GDPR requirements",
+    "timestamp": "2026-09-30T09:45:00Z",
+    "body": "<div>Dear Support,<br><br>We recently purchased the Annual Business Plan on order ORD-554219 ($1,200.00). However, during our compliance audit, we found that data residency controls do not comply with our internal GDPR standards.<br><br>Per your 30-day money-back guarantee, we are requesting a full refund of $1,200.00 to our original payment method and closure of the subscription.<br><br>Thank you for your prompt handling.<br><br>Kind regards,<br>Elena Rostova<br>Data Protection Officer</div>"
+  },
+  {
+    "id": "EML-2026-004",
+    "sender": "david.kim@outlook.com",
+    "recipient": "security@saasflow.com",
+    "subject": "Locked out of my account - 2FA code not arriving",
+    "timestamp": "2026-09-30T10:10:45Z",
+    "body": "Hi Support,\n\nI am trying to log into my account (david.kim@outlook.com, User ID: USR-44102), but the SMS 2-factor authentication codes are not arriving on my phone (+1-555-0129). I have tried resending 4 times already.\n\nI need to access my dashboard today to download our quarterly tax reports. Can you help me reset my 2FA or provide backup recovery codes?\n\nBest,\nDavid Kim\n\nSent from my iPhone"
+  },
+  {
+    "id": "EML-2026-005",
+    "sender": "patricia.m@retailworld.com",
+    "recipient": "orders@saasflow.com",
+    "subject": "Status update on bulk hardware order #ORD-99120",
+    "timestamp": "2026-09-30T10:40:12Z",
+    "body": "Hello,\n\nWe placed an order for 25 IoT gateway units under PO-77182 (Order #ORD-99120) three weeks ago. We received the initial order confirmation but no tracking details yet.\n\nCould you please let us know the current fulfillment status and when we can expect tracking numbers?\n\nRegards,\nPatricia Miller\nProcurement Specialist"
+  },
+  {
+    "id": "EML-2026-006",
+    "sender": "carlos.mendez@logistics-fast.mx",
+    "recipient": "support@saasflow.com",
+    "subject": "Shipment damaged upon delivery - Tracking #TRK-8812903",
+    "timestamp": "2026-09-30T11:05:30Z",
+    "body": "<html><body><p>Hello,</p><p>We received shipment <strong>#TRK-8812903</strong> today via DHL. Unfortunately, the outer crate was crushed and 3 of the 10 sensors are broken and unusable.</p><p>We have photos of the damage. Please arrange an immediate replacement dispatch for the 3 units so our deployment timeline is not delayed.</p><p>Thank you,<br>Carlos Mendez</p></body></html>"
+  },
+  {
+    "id": "EML-2026-007",
+    "sender": "rachel.z@startupseed.co",
+    "recipient": "accounts@saasflow.com",
+    "subject": "Cancel subscription effective immediately",
+    "timestamp": "2026-09-30T11:30:00Z",
+    "body": "To Customer Service,\n\nPlease cancel our Team Plan subscription for account ACC-33109 effective at the end of the current billing cycle (October 15, 2026).\n\nWe are downsizing our team and will not be renewing. Please confirm in writing that automatic renewal has been turned off and no further charges will occur.\n\nThanks,\nRachel Zhang"
+  },
+  {
+    "id": "EML-2026-008",
+    "sender": "brian.connor@freelance.org",
+    "recipient": "info@saasflow.com",
+    "subject": "Question regarding API rate limits and webhook retries",
+    "timestamp": "2026-09-30T12:00:15Z",
+    "body": "Hello team,\n\nI am evaluating your developer tier for an upcoming client project. I was wondering what the default rate limits are for the REST API (requests per minute), and if webhooks automatically retry upon receiving 5xx responses.\n\nAlso, do you offer sandbox test keys before subscribing?\n\nCheers,\nBrian Connor"
+  }
+]
